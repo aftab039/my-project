@@ -100,3 +100,9 @@ nav li a:hover{
 body{
 	background-color:lightwhite;
 }
+.b-g-img{
+	height:100px;
+	width:200px;
+	background-image: url('../images/one.jpg');
+	
+}
