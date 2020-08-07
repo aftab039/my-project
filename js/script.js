@@ -1,5 +1,12 @@
 function myFunction(){
-	document.write(city);
+	// document.write(city);
+
+
+
+	 document.write(temp);
+	document.write("--my old array-----",city);
+
+
    document.getElementById("demo").innerHTML = "kanpur";
    console.log ("city value" ,city[3])
 }
@@ -30,5 +37,9 @@ var city =["kanpur","sultanpur","lucknow","jaipur","mumbai", "ahmedabad"]
 city.push("data dalo"); // data add in last into array
 city.pop(); // data remove from last array
 city.shift(); // data remove in first array
+city.unshift("unshift"); // add data starting in array
+
+var temp=city.splice(1,3);
+
 
 
