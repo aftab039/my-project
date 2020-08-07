@@ -1,4 +1,5 @@
 function myFunction(){
+	document.write(city);
    document.getElementById("demo").innerHTML = "kanpur";
    console.log ("city value" ,city[3])
 }
@@ -25,4 +26,9 @@ var person ={
 };
 
 var city =["kanpur","sultanpur","lucknow","jaipur","mumbai", "ahmedabad"]
+
+city.push("data dalo"); // data add in last into array
+city.pop(); // data remove from last array
+city.shift(); // data remove in first array
+
 
