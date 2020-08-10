@@ -2,7 +2,7 @@ function myFunction(){
 	// document.write(city);
 
 
-document.write(person);
+document.write(person.gender);
 	//  document.write(temp);
 	document.write("--my old array-----",city);
 
@@ -48,6 +48,6 @@ city.push(...test); // data add in last into array
  person.gender="male";
 
  // errors 
- undefined
- null
- is not define 
+//  undefined
+//  null
+//  is not define 
