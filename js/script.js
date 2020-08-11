@@ -45,7 +45,16 @@ city.push(...test); // data add in last into array
 
 
 
- person.gender="male";
+ person.gender="male1";
+
+ function City(first,second,third) {
+	 console.log(first);
+	 console.log(second);
+	 console.log(third);
+
+ }
+
+ City("kanpurrrrrr","lucknowwww");
 
  // errors 
 //  undefined
