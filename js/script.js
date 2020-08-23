@@ -22,7 +22,6 @@ var demo={name:{name1:"aftab"},
 
 
 
-demo.name.name1
 
 
 var person ={
@@ -40,6 +39,18 @@ city.push(...test); // data add in last into array
 // city.pop(); // data remove from last array
 // city.shift(); // data remove in first array
 // city.unshift("unshift"); // add data starting in array
+// splice()
+// slice ()
+// sort()
+
+var veg=[1,4,7,9,5,3,59,98]
+function dd (a,b){
+	return b-a;
+	
+}
+
+var Sorted_veg=veg.sort(dd);
+document.write("my sorted array",Sorted_veg);
 
 // var temp=city.splice(1,3);
 
@@ -47,16 +58,33 @@ city.push(...test); // data add in last into array
 
  person.gender="male1";
 
- function City(first,second,third) {
+ function City(first,second) {
 	 console.log(first);
 	 console.log(second);
-	 console.log(third);
+	 
 
  }
 
  City("kanpurrrrrr","lucknowwww");
+ function Person(age){
 
- // errors 
+	 return document.write( age);
+	
+
+ }
+ Person();
+ 
+
+
+ // type of errors 
 //  undefined
 //  null
 //  is not define 
+ let Cities="Sultanpur123"
+
+function World() {
+	this.Cities="kanpur"
+console.log("test ki value", this.Cities);
+
+}
+
