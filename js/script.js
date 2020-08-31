@@ -1,3 +1,5 @@
+var corona_origin="china"
+
 function myFunction(){
 	// document.write(city);
 
@@ -65,7 +67,7 @@ document.write("my sorted array",Sorted_veg);
 
  }
 
- City("kanpurrrrrr","lucknowwww");
+ City("kanpurrrrrr","lucknow");
  function Person(age){
 
 	 return document.write( age);
@@ -74,7 +76,7 @@ document.write("my sorted array",Sorted_veg);
  }
  Person();
  
-
+m
 
  // type of errors 
 //  undefined
@@ -85,6 +87,21 @@ document.write("my sorted array",Sorted_veg);
 function World() {
 	this.Cities="kanpur"
 console.log("test ki value", this.Cities);
-
 }
 
+function Covid(){
+	this.corona_origin="Pak";
+	console.log("value of this",this);
+alert(corona_origin);
+}
+
+Covid();
+
+var Employee ={
+	name:"gaurav",
+	age:28,
+	mob:9889440531,
+    married:"yes"	
+}
+
+Employee.name
