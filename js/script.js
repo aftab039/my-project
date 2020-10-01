@@ -4,14 +4,18 @@ function myFunction(){
 	// document.write(city);
 
 
-document.write(person.gender);
-	//  document.write(temp);
-	document.write("--my old array-----",city);
+// document.write(person.gender);
+// 	//  document.write(temp);
+// 	document.write("--my old array-----",city);
 
 
 //    document.getElementById("demo").innerHTML = "kanpur";
-//    console.log ("city value" ,city[3])
+//    console.log ("city value" ,city[3]);
 }
+
+
+myFunction();
+
 
 
 
@@ -50,7 +54,7 @@ function dd (a,b){
 	return b-a;
 	
 }
-
+	
 var Sorted_veg=veg.sort(dd);
 document.write("my sorted array",Sorted_veg);
 
@@ -76,7 +80,11 @@ document.write("my sorted array",Sorted_veg);
  }
  Person();
  
-m
+// a > b
+// a<b
+// a=b;
+// a==b;
+// a===b;
 
  // type of errors 
 //  undefined
@@ -105,3 +113,73 @@ var Employee ={
 }
 
 Employee.name
+
+var test_player=["sachin","rahul dravid","virat ","dhoni","raina"];
+
+function Voter_Authenticity (age) {
+if (age>=18)
+{
+	alert("wow you can vote !!!!");
+}
+
+else{
+	alert("Sorry you can not  vote now!!!!");
+}
+
+for (i=0; i<test_player.length; i++  ){
+//alert("Hello World");
+}
+}
+
+Voter_Authenticity(18);
+
+var Age=25;
+
+function ChangeHost(){
+	
+	
+console.log("My age  is",Age);
+Age=32;
+}
+
+ChangeHost();
+var name;
+var age;
+var salary;
+var sex;
+function Worker(name,age,salary,sex){
+
+	this.name=name;
+	this.age=age;
+	this.salary=salary;
+	this.sex=sex;
+	console.log("employee name",name);
+	console.log("employee age",age);
+	console.log("employee salary",salary);
+	console.log("employee sex",sex);
+	
+
+
+
+}
+
+Worker("aftab",20,2000,"male");
+
+Worker.prototype.city="kanpur";
+
+var Worker1= new Worker ("Gaurav",31,5000,"male","lucknow");
+console.log(Worker1.name);
+console.log(Worker1.age);
+console.log(Worker1.salary);
+console.log(Worker1.sex);
+console.log(Worker1.city);
+
+var Worker2= new Worker ("somu",29,9000,"male","lucknow1");
+console.log(Worker2.name);
+console.log(Worker2.age);
+console.log(Worker2.salary);
+console.log(Worker2.sex);
+console.log(Worker2.city);
+x+= 5;
+
+x+5==x;
