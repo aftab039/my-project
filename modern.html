@@ -7,7 +7,15 @@
 
 <!-- js files-->
 
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js">
+
+</script>
+
+<script>
+    var str = "Please locate where 'locate' occurs!";
+    var pos = str.indexOf("locate",15);
+    document.getElementById("demo").innerHTML = pos;
+</script>
 
 </head>
 <body style="position: relative; min-height: 100%; margin-top: 0;">
@@ -73,7 +81,7 @@
 <div class="b-g-img"> hello world</div>
 <button type="button" onclick="myFunction();World()">Click me</button>
 
-
+<p id="demo">string check</p>
 </body>
 
 </html>

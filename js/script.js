@@ -183,3 +183,7 @@ console.log(Worker2.city);
 x+= 5;
 
 x+5==x;
+var arr1= [10,20,30,40];
+var arr2= new Array(10,20,30,40);
+console.log("array1 value",arr1);
+console.log("array2 value",arr2);
