@@ -100,7 +100,7 @@ console.log("test ki value", this.Cities);
 function Covid(){
 	this.corona_origin="Pak";
 	console.log("value of this",this);
-alert(corona_origin);
+//alert(corona_origin);
 }
 
 Covid();
@@ -119,11 +119,11 @@ var test_player=["sachin","rahul dravid","virat ","dhoni","raina"];
 function Voter_Authenticity (age) {
 if (age>=18)
 {
-	alert("wow you can vote !!!!");
+	//alert("wow you can vote !!!!");
 }
 
 else{
-	alert("Sorry you can not  vote now!!!!");
+	//alert("Sorry you can not  vote now!!!!");
 }
 
 for (i=0; i<test_player.length; i++  ){
@@ -180,10 +180,39 @@ console.log(Worker2.age);
 console.log(Worker2.salary);
 console.log(Worker2.sex);
 console.log(Worker2.city);
-x+= 5;
+//x+= 5;
 
-x+5==x;
+//x+5==x;
 var arr1= [10,20,30,40];
 var arr2= new Array(10,20,30,40);
 console.log("array1 value",arr1);
 console.log("array2 value",arr2);
+
+
+var Myarray1=["1","2","3","4","5","6","7","8"]
+var namo;
+function Test(){
+	 this
+	 Myarray1.splice(1,7);
+	 console.log("show array",Myarray1);
+	
+}
+
+
+document.write("show array",Myarray1);
+var salary=[1600,2500,3500,4600,5500,6400];
+var newSalary = salary.forEach(x=>{
+	console.log("newSalary is",newSalary);
+	console.log("newSalary",x);
+
+
+	 
+	
+	
+})
+
+
+
+
+
+
