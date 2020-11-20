@@ -213,6 +213,11 @@ var newSalary = salary.forEach(x=>{
 
 
 
+function lucknow(mycity){
+	var city= mycity;
+	console.log("inner value",city);
 
-
+}
+console.log("outer value",city);
+lucknow("sln");
 
